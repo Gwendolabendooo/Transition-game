@@ -1,0 +1,51 @@
+body{
+      display: flex;
+    align-content: space-between;
+    height: 100vh;
+    align-items: center;
+  background: #011638;
+  overflow: hidden;
+    
+}
+span{
+  width: 260px;
+  height: 12px;
+  left: 0;
+  top: 0;
+  transition: left 1s;
+  background: #3879E2;
+  position: absolute;
+}
+.load-2{
+  background: #89d9ff;
+}
+h2{
+  position: absolute;
+  white-space: nowrap;
+}
+div{
+  z-index: 50;
+  position: relative;
+  width:200%;
+  height:200px;
+  background-color: #98989829;
+      display: flex;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@keyframes slidein {
+  from {
+    transform: rotate3d(13, 5, 0, 
+10deg);
+  }
+
+  to {
+    transform: rotate3d(13, 5, 0, 
+360deg);
+  }
+}
